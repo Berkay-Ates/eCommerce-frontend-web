@@ -6,7 +6,7 @@
       <input id="name" name="name" type="text" [(ngModel)]="name" required />
     </div>
 
-    @if (userType() === UserType.SELLER) {
+    @if (userType() === UserType.CUSTOMER) {
       <div class="form-group" >
         <label for="surname">Surname</label>
         <input id="surname" name="surname" type="text" [(ngModel)]="surname" required />
